@@ -1,7 +1,7 @@
 /* @flow */
 
-var React = global.React || require('react');
-var PropTypes = global.PropTypes || require('prop-types');
+var React = require('react');
+var PropTypes = require('prop-types');
 
 var window = require('./utils/window');
 
@@ -498,4 +498,3 @@ class Infinite extends React.Component<
 }
 
 module.exports = Infinite;
-global.Infinite = Infinite;

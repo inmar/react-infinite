@@ -3,7 +3,7 @@
 var ConstantInfiniteComputer = require('../computers/constantInfiniteComputer.js');
 var ArrayInfiniteComputer = require('../computers/arrayInfiniteComputer.js');
 var scaleEnum = require('./scaleEnum');
-var React = global.React || require('react');
+var React = require('react');
 var window = require('./window');
 
 function createInfiniteComputer(

@@ -4,7 +4,7 @@
 // runtime checking that the props passed to React Infinite
 // make the minimum amount of sense.
 
-var React = global.React || require('react');
+var React = require('react');
 var _isFinite = require('lodash.isfinite');
 
 module.exports = function(props: ReactInfiniteProps) {
